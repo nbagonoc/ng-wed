@@ -1,0 +1,17 @@
+.navbar {
+  .navbar-nav {
+    .nav-item {
+      &.active {
+        .nav-link {
+          color: $pink;
+        }
+      }
+      .nav-link {
+        color: $grey;
+        &:hover {
+          color: $pink;
+        }
+      }
+    }
+  }
+}

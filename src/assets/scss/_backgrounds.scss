@@ -1,0 +1,222 @@
+// bg classes
+.bg-red {
+  background-color: $red;
+}
+.bg-blue {
+  background-color: $blue;
+}
+.bg-green {
+  background-color: $green;
+}
+.bg-white {
+  background-color: $white !important;
+}
+.bg-light {
+  background-color: $light !important;
+}
+.bg-grey {
+  background-color: $grey;
+}
+.bg-dark-grey {
+  background-color: $dark-grey;
+}
+.bg-dark {
+  background-color: $dark !important;
+}
+
+// BACKGROUND A
+.bg-a {
+  height: 400px;
+  background: -moz-linear-gradient(
+      to bottom,
+      rgba($dark, 0.2) 0%,
+      rgba($dark, 0.2) 100%
+    ),
+    url("../img/cover-a.jpg") center center;
+  background: -webkit-linear-gradient(
+      to bottom,
+      rgba($dark, 0.2) 0%,
+      rgba($dark, 0.2) 100%
+    ),
+    url("../img/cover-a.jpg") center center;
+  background: -ms-linear-gradient(
+      to bottom,
+      rgba($dark, 0.2) 0%,
+      rgba($dark, 0.2) 100%
+    ),
+    url("../img/cover-a.jpg") center center;
+  background: -o-linear-gradient(
+      to bottom,
+      rgba($dark, 0.2) 0%,
+      rgba($dark, 0.2) 100%
+    ),
+    url("../img/cover-a.jpg") center center;
+  background: linear-gradient(
+      to bottom,
+      rgba($dark, 0.2) 0%,
+      rgba($dark, 0.2) 100%
+    ),
+    url("../img/cover-a.jpg") center center;
+  @include cover;
+}
+
+// BACKGROUND B
+.bg-b {
+  height: 400px;
+  background: -moz-linear-gradient(
+      to bottom,
+      rgba($dark, 0.2) 0%,
+      rgba($dark, 0.2) 100%
+    ),
+    url("../img/cover-b.jpg") center center;
+  background: -webkit-linear-gradient(
+      to bottom,
+      rgba($dark, 0.2) 0%,
+      rgba($dark, 0.2) 100%
+    ),
+    url("../img/cover-b.jpg") center center;
+  background: -ms-linear-gradient(
+      to bottom,
+      rgba($dark, 0.2) 0%,
+      rgba($dark, 0.2) 100%
+    ),
+    url("../img/cover-b.jpg") center center;
+  background: -o-linear-gradient(
+      to bottom,
+      rgba($dark, 0.2) 0%,
+      rgba($dark, 0.2) 100%
+    ),
+    url("../img/cover-b.jpg") center center;
+  background: linear-gradient(
+      to bottom,
+      rgba($dark, 0.2) 0%,
+      rgba($dark, 0.2) 100%
+    ),
+    url("../img/cover-b.jpg") center center;
+  @include cover;
+}
+
+// BACKGROUND C
+.bg-c {
+  height: 400px;
+  background: -moz-linear-gradient(
+      to bottom,
+      rgba($dark, 0.2) 0%,
+      rgba($dark, 0.2) 100%
+    ),
+    url("../img/cover-c.jpg") center center;
+  background: -webkit-linear-gradient(
+      to bottom,
+      rgba($dark, 0.2) 0%,
+      rgba($dark, 0.2) 100%
+    ),
+    url("../img/cover-c.jpg") center center;
+  background: -ms-linear-gradient(
+      to bottom,
+      rgba($dark, 0.2) 0%,
+      rgba($dark, 0.2) 100%
+    ),
+    url("../img/cover-c.jpg") center center;
+  background: -o-linear-gradient(
+      to bottom,
+      rgba($dark, 0.2) 0%,
+      rgba($dark, 0.2) 100%
+    ),
+    url("../img/cover-c.jpg") center center;
+  background: linear-gradient(
+      to bottom,
+      rgba($dark, 0.2) 0%,
+      rgba($dark, 0.2) 100%
+    ),
+    url("../img/cover-c.jpg") center center;
+  @include cover;
+}
+
+// BACKGROUND D
+.bg-d {
+  height: 400px;
+  background: -moz-linear-gradient(
+      to bottom,
+      rgba($dark, 0.2) 0%,
+      rgba($dark, 0.2) 100%
+    ),
+    url("../img/cover-d.jpg") center center;
+  background: -webkit-linear-gradient(
+      to bottom,
+      rgba($dark, 0.2) 0%,
+      rgba($dark, 0.2) 100%
+    ),
+    url("../img/cover-d.jpg") center center;
+  background: -ms-linear-gradient(
+      to bottom,
+      rgba($dark, 0.2) 0%,
+      rgba($dark, 0.2) 100%
+    ),
+    url("../img/cover-d.jpg") center center;
+  background: -o-linear-gradient(
+      to bottom,
+      rgba($dark, 0.2) 0%,
+      rgba($dark, 0.2) 100%
+    ),
+    url("../img/cover-d.jpg") center center;
+  background: linear-gradient(
+      to bottom,
+      rgba($dark, 0.2) 0%,
+      rgba($dark, 0.2) 100%
+    ),
+    url("../img/cover-d.jpg") center center;
+  @include cover;
+}
+
+// BACKGROUND D
+.bg-e {
+  height: 400px;
+  background: -moz-linear-gradient(
+      to bottom,
+      rgba($dark, 0.2) 0%,
+      rgba($dark, 0.2) 100%
+    ),
+    url("../img/cover-e.jpg") center center;
+  background: -webkit-linear-gradient(
+      to bottom,
+      rgba($dark, 0.2) 0%,
+      rgba($dark, 0.2) 100%
+    ),
+    url("../img/cover-e.jpg") center center;
+  background: -ms-linear-gradient(
+      to bottom,
+      rgba($dark, 0.2) 0%,
+      rgba($dark, 0.2) 100%
+    ),
+    url("../img/cover-e.jpg") center center;
+  background: -o-linear-gradient(
+      to bottom,
+      rgba($dark, 0.2) 0%,
+      rgba($dark, 0.2) 100%
+    ),
+    url("../img/cover-e.jpg") center center;
+  background: linear-gradient(
+      to bottom,
+      rgba($dark, 0.2) 0%,
+      rgba($dark, 0.2) 100%
+    ),
+    url("../img/cover-e.jpg") center center;
+  @include cover;
+}
+
+// HEADER
+.header {
+  background: linear-gradient(
+      to bottom,
+      rgba($white, 0.7) 0%,
+      rgba($white, 0.7) 100%
+    ),
+    url("../img/header.jpg") center center;
+  background: -webkit-linear-gradient(
+      to bottom,
+      rgba($white, 0.7) 0%,
+      rgba($white, 0.7) 100%
+    ),
+    url("../img/cover-e.jpg") center center;
+  @include cover;
+}

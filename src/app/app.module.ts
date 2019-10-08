@@ -7,15 +7,17 @@ import { HomeComponent } from "./components/home/home.component";
 import { NavComponent } from "./components/nav/nav.component";
 import { BannerComponent } from "./components/banner/banner.component";
 import { SidebarComponent } from "./components/sidebar/sidebar.component";
-import { AboutComponent } from "./components/about/about.component";
-import { ServicesComponent } from "./components/services/services.component";
-import { FeaturedComponent } from './components/featured/featured.component';
+import { CoverComponent } from "./components/cover/cover.component";
+import { GuestsComponent } from "./components/guests/guests.component";
+import { DressCodeComponent } from "./components/dress-code/dress-code.component";
+import { FaqComponent } from "./components/faq/faq.component";
 
 // ROUTES
 const appRoutes: Routes = [
   { path: "", component: HomeComponent },
-  { path: "about", component: AboutComponent },
-  { path: "services", component: ServicesComponent }
+  { path: "guests", component: GuestsComponent },
+  { path: "dress-code", component: DressCodeComponent },
+  { path: "faq", component: FaqComponent }
 ];
 
 @NgModule({
@@ -25,9 +27,10 @@ const appRoutes: Routes = [
     NavComponent,
     BannerComponent,
     SidebarComponent,
-    AboutComponent,
-    ServicesComponent,
-    FeaturedComponent
+    CoverComponent,
+    GuestsComponent,
+    DressCodeComponent,
+    FaqComponent
   ],
   imports: [BrowserModule, RouterModule.forRoot(appRoutes)],
   providers: [],
