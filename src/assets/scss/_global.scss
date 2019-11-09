@@ -53,15 +53,15 @@ html {
 .ornament-top {
   background: url("../img/ornament.png") center center;
   background-repeat: no-repeat;
-  height: 100px;
-}
-.ornament-bottom {
-  background: url("../img/ornament.png") center center;
-  background-repeat: no-repeat;
+  height: 75px;
   transform: rotate(180deg);
   -moz-transform: rotate(180deg);
   -webkit-transform: rotate(180deg);
   -ms-transform: rotate(180deg);
   -o-transform: rotate(180deg);
-  height: 100px;
+}
+.ornament-bottom {
+  background: url("../img/ornament.png") center center;
+  background-repeat: no-repeat;
+  height: 75px;
 }

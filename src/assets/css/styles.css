@@ -1,172 +1,130 @@
-/* line 2, ../scss/_classes.scss */
 .text-red {
   color: #f95d5d; }
 
-/* line 5, ../scss/_classes.scss */
 .text-pink {
   color: #f4adae; }
 
-/* line 8, ../scss/_classes.scss */
 .text-blue {
   color: #00beff; }
 
-/* line 11, ../scss/_classes.scss */
 .text-green {
   color: #5ac152; }
 
-/* line 14, ../scss/_classes.scss */
 .text-white {
   color: #fff !important; }
 
-/* line 17, ../scss/_classes.scss */
 .text-light {
   color: #f8f9fa !important; }
 
-/* line 20, ../scss/_classes.scss */
 .text-grey {
   color: #666; }
 
-/* line 23, ../scss/_classes.scss */
 .text-dark-grey {
   color: #333; }
 
-/* line 26, ../scss/_classes.scss */
 .text-dark {
   color: #222 !important; }
 
-/* line 31, ../scss/_classes.scss */
 .link-red {
   color: #f95d5d; }
-  /* line 33, ../scss/_classes.scss */
   .link-red:hover {
     color: #f72c2c; }
 
-/* line 37, ../scss/_classes.scss */
 .link-blue {
   color: #00beff; }
-  /* line 39, ../scss/_classes.scss */
   .link-blue:hover {
     color: #0098cc; }
 
-/* line 43, ../scss/_classes.scss */
 .link-green {
   color: #5ac152; }
-  /* line 45, ../scss/_classes.scss */
   .link-green:hover {
     color: #43a53b; }
 
-/* line 49, ../scss/_classes.scss */
 .link-white {
   color: #fff; }
-  /* line 51, ../scss/_classes.scss */
   .link-white:hover {
     color: #b3b3b3; }
 
-/* line 55, ../scss/_classes.scss */
 .link-light {
   color: #f8f9fa; }
-  /* line 57, ../scss/_classes.scss */
   .link-light:hover {
     color: #bdc6d0; }
 
-/* line 61, ../scss/_classes.scss */
 .link-grey {
   color: #666; }
-  /* line 63, ../scss/_classes.scss */
   .link-grey:hover {
     color: #4d4d4d; }
 
-/* line 67, ../scss/_classes.scss */
 .link-dark-grey {
   color: #333; }
-  /* line 69, ../scss/_classes.scss */
   .link-dark-grey:hover {
     color: #666666; }
 
-/* line 73, ../scss/_classes.scss */
 .link-dark {
   color: #222; }
-  /* line 75, ../scss/_classes.scss */
   .link-dark:hover {
     color: #555555; }
 
-/* line 81, ../scss/_classes.scss */
 .text-xs {
   font-size: 13px !important; }
 
-/* line 84, ../scss/_classes.scss */
 .text-sm {
   font-size: 15px !important; }
 
-/* line 87, ../scss/_classes.scss */
 .text-md {
   font-size: 20px !important; }
 
-/* line 90, ../scss/_classes.scss */
 .text-lg {
   font-size: 35px !important; }
 
-/* line 93, ../scss/_classes.scss */
 .text-xl {
   font-size: 55px !important; }
 
-/* line 99, ../scss/_classes.scss */
 .vertical-align {
   display: table;
   height: 100%;
   width: 100%;
   position: relative; }
-  /* line 104, ../scss/_classes.scss */
   .vertical-align .vertical-align-item {
     display: table-cell;
     vertical-align: middle; }
 
-/* line 111, ../scss/_classes.scss */
 .img-size-xs {
   height: 75px;
   width: 75px; }
 
-/* line 115, ../scss/_classes.scss */
 .img-size-sm {
   height: 100px;
   width: 100px; }
 
-/* line 119, ../scss/_classes.scss */
 .img-size-md {
   height: 125px;
   width: 125px; }
 
-/* line 123, ../scss/_classes.scss */
 .img-size-lg {
   height: 150px;
   width: 150px; }
 
-/* line 127, ../scss/_classes.scss */
 .img-size-xl {
   height: 250px;
   width: 250px; }
 
-/* line 2, ../scss/_global.scss */
 body,
 html {
   height: 100%;
   color: #666;
   font-size: 15px;
   font-family: "Roboto Slab", serif; }
-  /* line 8, ../scss/_global.scss */
   body p,
   html p {
     font-family: "Roboto Slab", serif; }
-  /* line 11, ../scss/_global.scss */
   body a,
   html a {
     text-decoration: none !important;
     color: #f4adae; }
-    /* line 14, ../scss/_global.scss */
     body a:hover,
     html a:hover {
       color: #ee8082; }
-  /* line 18, ../scss/_global.scss */
   body h1,
   body h2,
   html h1,
@@ -175,7 +133,6 @@ html {
     color: #f4adae;
     font-weight: bold !important;
     font-style: normal; }
-  /* line 25, ../scss/_global.scss */
   body h3,
   body h4,
   body h5,
@@ -186,12 +143,10 @@ html {
     color: #f4adae;
     font-weight: normal !important;
     font-style: normal; }
-  /* line 33, ../scss/_global.scss */
   body hr,
   html hr {
     border-top: 1px solid rgba(244, 173, 174, 0.3); }
 
-/* line 39, ../scss/_global.scss */
 .scroll-to-top {
   display: none;
   position: fixed;
@@ -200,66 +155,57 @@ html {
   z-index: 9999;
   font-size: 55px;
   color: rgba(34, 34, 34, 0.3); }
-  /* line 47, ../scss/_global.scss */
   .scroll-to-top:hover {
     color: rgba(34, 34, 34, 0.7); }
 
-/* line 53, ../scss/_global.scss */
 .ornament-top {
   background: url("../img/ornament.png") center center;
   background-repeat: no-repeat;
-  height: 100px; }
-
-/* line 58, ../scss/_global.scss */
-.ornament-bottom {
-  background: url("../img/ornament.png") center center;
-  background-repeat: no-repeat;
+  height: 75px;
   transform: rotate(180deg);
   -moz-transform: rotate(180deg);
   -webkit-transform: rotate(180deg);
   -ms-transform: rotate(180deg);
-  -o-transform: rotate(180deg);
-  height: 100px; }
+  -o-transform: rotate(180deg); }
 
-/* line 2, ../scss/_backgrounds.scss */
+.ornament-bottom {
+  background: url("../img/ornament.png") center center;
+  background-repeat: no-repeat;
+  height: 75px; }
+
 .bg-red {
   background-color: #f95d5d; }
 
-/* line 5, ../scss/_backgrounds.scss */
 .bg-blue {
   background-color: #00beff; }
 
-/* line 8, ../scss/_backgrounds.scss */
 .bg-green {
   background-color: #5ac152; }
 
-/* line 11, ../scss/_backgrounds.scss */
 .bg-white {
   background-color: #fff !important; }
 
-/* line 14, ../scss/_backgrounds.scss */
 .bg-light {
   background-color: #f8f9fa !important; }
 
-/* line 17, ../scss/_backgrounds.scss */
 .bg-grey {
   background-color: #666; }
 
-/* line 20, ../scss/_backgrounds.scss */
 .bg-dark-grey {
   background-color: #333; }
 
-/* line 23, ../scss/_backgrounds.scss */
 .bg-dark {
   background-color: #222 !important; }
 
-/* line 28, ../scss/_backgrounds.scss */
 .bg-a {
   height: 400px;
   background: -moz-linear-gradient(to bottom, rgba(34, 34, 34, 0.2) 0%, rgba(34, 34, 34, 0.2) 100%), url("../img/cover-a.jpg") center center;
   background: -webkit-linear-gradient(to bottom, rgba(34, 34, 34, 0.2) 0%, rgba(34, 34, 34, 0.2) 100%), url("../img/cover-a.jpg") center center;
   background: -ms-linear-gradient(to bottom, rgba(34, 34, 34, 0.2) 0%, rgba(34, 34, 34, 0.2) 100%), url("../img/cover-a.jpg") center center;
   background: -o-linear-gradient(to bottom, rgba(34, 34, 34, 0.2) 0%, rgba(34, 34, 34, 0.2) 100%), url("../img/cover-a.jpg") center center;
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(34, 34, 34, 0.2)), to(rgba(34, 34, 34, 0.2))), url("../img/cover-a.jpg") center center;
+  background: -webkit-linear-gradient(top, rgba(34, 34, 34, 0.2) 0%, rgba(34, 34, 34, 0.2) 100%), url("../img/cover-a.jpg") center center;
+  background: -o-linear-gradient(top, rgba(34, 34, 34, 0.2) 0%, rgba(34, 34, 34, 0.2) 100%), url("../img/cover-a.jpg") center center;
   background: linear-gradient(to bottom, rgba(34, 34, 34, 0.2) 0%, rgba(34, 34, 34, 0.2) 100%), url("../img/cover-a.jpg") center center;
   background-repeat: no-repeat;
   -moz-background-size: cover !important;
@@ -268,13 +214,15 @@ html {
   -o-background-size: cover !important;
   background-size: cover !important; }
 
-/* line 64, ../scss/_backgrounds.scss */
 .bg-b {
   height: 400px;
   background: -moz-linear-gradient(to bottom, rgba(34, 34, 34, 0.2) 0%, rgba(34, 34, 34, 0.2) 100%), url("../img/cover-b.jpg") center center;
   background: -webkit-linear-gradient(to bottom, rgba(34, 34, 34, 0.2) 0%, rgba(34, 34, 34, 0.2) 100%), url("../img/cover-b.jpg") center center;
   background: -ms-linear-gradient(to bottom, rgba(34, 34, 34, 0.2) 0%, rgba(34, 34, 34, 0.2) 100%), url("../img/cover-b.jpg") center center;
   background: -o-linear-gradient(to bottom, rgba(34, 34, 34, 0.2) 0%, rgba(34, 34, 34, 0.2) 100%), url("../img/cover-b.jpg") center center;
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(34, 34, 34, 0.2)), to(rgba(34, 34, 34, 0.2))), url("../img/cover-b.jpg") center center;
+  background: -webkit-linear-gradient(top, rgba(34, 34, 34, 0.2) 0%, rgba(34, 34, 34, 0.2) 100%), url("../img/cover-b.jpg") center center;
+  background: -o-linear-gradient(top, rgba(34, 34, 34, 0.2) 0%, rgba(34, 34, 34, 0.2) 100%), url("../img/cover-b.jpg") center center;
   background: linear-gradient(to bottom, rgba(34, 34, 34, 0.2) 0%, rgba(34, 34, 34, 0.2) 100%), url("../img/cover-b.jpg") center center;
   background-repeat: no-repeat;
   -moz-background-size: cover !important;
@@ -283,13 +231,15 @@ html {
   -o-background-size: cover !important;
   background-size: cover !important; }
 
-/* line 100, ../scss/_backgrounds.scss */
 .bg-c {
   height: 400px;
   background: -moz-linear-gradient(to bottom, rgba(34, 34, 34, 0.2) 0%, rgba(34, 34, 34, 0.2) 100%), url("../img/cover-c.jpg") center center;
   background: -webkit-linear-gradient(to bottom, rgba(34, 34, 34, 0.2) 0%, rgba(34, 34, 34, 0.2) 100%), url("../img/cover-c.jpg") center center;
   background: -ms-linear-gradient(to bottom, rgba(34, 34, 34, 0.2) 0%, rgba(34, 34, 34, 0.2) 100%), url("../img/cover-c.jpg") center center;
   background: -o-linear-gradient(to bottom, rgba(34, 34, 34, 0.2) 0%, rgba(34, 34, 34, 0.2) 100%), url("../img/cover-c.jpg") center center;
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(34, 34, 34, 0.2)), to(rgba(34, 34, 34, 0.2))), url("../img/cover-c.jpg") center center;
+  background: -webkit-linear-gradient(top, rgba(34, 34, 34, 0.2) 0%, rgba(34, 34, 34, 0.2) 100%), url("../img/cover-c.jpg") center center;
+  background: -o-linear-gradient(top, rgba(34, 34, 34, 0.2) 0%, rgba(34, 34, 34, 0.2) 100%), url("../img/cover-c.jpg") center center;
   background: linear-gradient(to bottom, rgba(34, 34, 34, 0.2) 0%, rgba(34, 34, 34, 0.2) 100%), url("../img/cover-c.jpg") center center;
   background-repeat: no-repeat;
   -moz-background-size: cover !important;
@@ -298,13 +248,15 @@ html {
   -o-background-size: cover !important;
   background-size: cover !important; }
 
-/* line 136, ../scss/_backgrounds.scss */
 .bg-d {
   height: 400px;
   background: -moz-linear-gradient(to bottom, rgba(34, 34, 34, 0.2) 0%, rgba(34, 34, 34, 0.2) 100%), url("../img/cover-d.jpg") center center;
   background: -webkit-linear-gradient(to bottom, rgba(34, 34, 34, 0.2) 0%, rgba(34, 34, 34, 0.2) 100%), url("../img/cover-d.jpg") center center;
   background: -ms-linear-gradient(to bottom, rgba(34, 34, 34, 0.2) 0%, rgba(34, 34, 34, 0.2) 100%), url("../img/cover-d.jpg") center center;
   background: -o-linear-gradient(to bottom, rgba(34, 34, 34, 0.2) 0%, rgba(34, 34, 34, 0.2) 100%), url("../img/cover-d.jpg") center center;
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(34, 34, 34, 0.2)), to(rgba(34, 34, 34, 0.2))), url("../img/cover-d.jpg") center center;
+  background: -webkit-linear-gradient(top, rgba(34, 34, 34, 0.2) 0%, rgba(34, 34, 34, 0.2) 100%), url("../img/cover-d.jpg") center center;
+  background: -o-linear-gradient(top, rgba(34, 34, 34, 0.2) 0%, rgba(34, 34, 34, 0.2) 100%), url("../img/cover-d.jpg") center center;
   background: linear-gradient(to bottom, rgba(34, 34, 34, 0.2) 0%, rgba(34, 34, 34, 0.2) 100%), url("../img/cover-d.jpg") center center;
   background-repeat: no-repeat;
   -moz-background-size: cover !important;
@@ -313,13 +265,15 @@ html {
   -o-background-size: cover !important;
   background-size: cover !important; }
 
-/* line 172, ../scss/_backgrounds.scss */
 .bg-e {
   height: 400px;
   background: -moz-linear-gradient(to bottom, rgba(34, 34, 34, 0.2) 0%, rgba(34, 34, 34, 0.2) 100%), url("../img/cover-e.jpg") center center;
   background: -webkit-linear-gradient(to bottom, rgba(34, 34, 34, 0.2) 0%, rgba(34, 34, 34, 0.2) 100%), url("../img/cover-e.jpg") center center;
   background: -ms-linear-gradient(to bottom, rgba(34, 34, 34, 0.2) 0%, rgba(34, 34, 34, 0.2) 100%), url("../img/cover-e.jpg") center center;
   background: -o-linear-gradient(to bottom, rgba(34, 34, 34, 0.2) 0%, rgba(34, 34, 34, 0.2) 100%), url("../img/cover-e.jpg") center center;
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(34, 34, 34, 0.2)), to(rgba(34, 34, 34, 0.2))), url("../img/cover-e.jpg") center center;
+  background: -webkit-linear-gradient(top, rgba(34, 34, 34, 0.2) 0%, rgba(34, 34, 34, 0.2) 100%), url("../img/cover-e.jpg") center center;
+  background: -o-linear-gradient(top, rgba(34, 34, 34, 0.2) 0%, rgba(34, 34, 34, 0.2) 100%), url("../img/cover-e.jpg") center center;
   background: linear-gradient(to bottom, rgba(34, 34, 34, 0.2) 0%, rgba(34, 34, 34, 0.2) 100%), url("../img/cover-e.jpg") center center;
   background-repeat: no-repeat;
   -moz-background-size: cover !important;
@@ -328,8 +282,10 @@ html {
   -o-background-size: cover !important;
   background-size: cover !important; }
 
-/* line 208, ../scss/_backgrounds.scss */
 .header {
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 0.7)), to(rgba(255, 255, 255, 0.7))), url("../img/header.jpg") center center;
+  background: -webkit-linear-gradient(top, rgba(255, 255, 255, 0.7) 0%, rgba(255, 255, 255, 0.7) 100%), url("../img/header.jpg") center center;
+  background: -o-linear-gradient(top, rgba(255, 255, 255, 0.7) 0%, rgba(255, 255, 255, 0.7) 100%), url("../img/header.jpg") center center;
   background: linear-gradient(to bottom, rgba(255, 255, 255, 0.7) 0%, rgba(255, 255, 255, 0.7) 100%), url("../img/header.jpg") center center;
   background: -webkit-linear-gradient(to bottom, rgba(255, 255, 255, 0.7) 0%, rgba(255, 255, 255, 0.7) 100%), url("../img/cover-e.jpg") center center;
   background-repeat: no-repeat;
@@ -339,22 +295,22 @@ html {
   -o-background-size: cover !important;
   background-size: cover !important; }
 
-/* line 5, ../scss/_navbars.scss */
 .navbar .navbar-nav .nav-item.active .nav-link {
   color: #f4adae; }
-/* line 9, ../scss/_navbars.scss */
+
 .navbar .navbar-nav .nav-item .nav-link {
   color: #666; }
-  /* line 11, ../scss/_navbars.scss */
   .navbar .navbar-nav .nav-item .nav-link:hover {
     color: #f4adae; }
 
-/* line 2, ../scss/_covers.scss */
 .cover-a {
   background: -moz-linear-gradient(to bottom, rgba(34, 34, 34, 0.5) 0%, rgba(34, 34, 34, 0.5) 100%), url("../img/cover-a.jpg") center center;
   background: -webkit-linear-gradient(to bottom, rgba(34, 34, 34, 0.5) 0%, rgba(34, 34, 34, 0.5) 100%), url("../img/cover-a.jpg") center center;
   background: -ms-linear-gradient(to bottom, rgba(34, 34, 34, 0.5) 0%, rgba(34, 34, 34, 0.5) 100%), url("../img/cover-a.jpg") center center;
   background: -o-linear-gradient(to bottom, rgba(34, 34, 34, 0.5) 0%, rgba(34, 34, 34, 0.5) 100%), url("../img/cover-a.jpg") center center;
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(34, 34, 34, 0.5)), to(rgba(34, 34, 34, 0.5))), url("../img/cover-a.jpg") center center;
+  background: -webkit-linear-gradient(top, rgba(34, 34, 34, 0.5) 0%, rgba(34, 34, 34, 0.5) 100%), url("../img/cover-a.jpg") center center;
+  background: -o-linear-gradient(top, rgba(34, 34, 34, 0.5) 0%, rgba(34, 34, 34, 0.5) 100%), url("../img/cover-a.jpg") center center;
   background: linear-gradient(to bottom, rgba(34, 34, 34, 0.5) 0%, rgba(34, 34, 34, 0.5) 100%), url("../img/cover-a.jpg") center center;
   background-attachment: scroll;
   height: 100%;
@@ -365,12 +321,14 @@ html {
   -o-background-size: cover !important;
   background-size: cover !important; }
 
-/* line 38, ../scss/_covers.scss */
 .cover-b {
   background: -moz-linear-gradient(to bottom, rgba(34, 34, 34, 0.5) 0%, rgba(34, 34, 34, 0.5) 100%), url("../img/cover-b.jpg") center center;
   background: -webkit-linear-gradient(to bottom, rgba(34, 34, 34, 0.5) 0%, rgba(34, 34, 34, 0.5) 100%), url("../img/cover-b.jpg") center center;
   background: -ms-linear-gradient(to bottom, rgba(34, 34, 34, 0.5) 0%, rgba(34, 34, 34, 0.5) 100%), url("../img/cover-b.jpg") center center;
   background: -o-linear-gradient(to bottom, rgba(34, 34, 34, 0.5) 0%, rgba(34, 34, 34, 0.5) 100%), url("../img/cover-b.jpg") center center;
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(34, 34, 34, 0.5)), to(rgba(34, 34, 34, 0.5))), url("../img/cover-b.jpg") center center;
+  background: -webkit-linear-gradient(top, rgba(34, 34, 34, 0.5) 0%, rgba(34, 34, 34, 0.5) 100%), url("../img/cover-b.jpg") center center;
+  background: -o-linear-gradient(top, rgba(34, 34, 34, 0.5) 0%, rgba(34, 34, 34, 0.5) 100%), url("../img/cover-b.jpg") center center;
   background: linear-gradient(to bottom, rgba(34, 34, 34, 0.5) 0%, rgba(34, 34, 34, 0.5) 100%), url("../img/cover-b.jpg") center center;
   background-attachment: fixed;
   height: 100%;
@@ -381,17 +339,14 @@ html {
   -o-background-size: cover !important;
   background-size: cover !important; }
 
-/* line 74, ../scss/_covers.scss */
 .cover-c {
   height: 100%; }
-  /* line 76, ../scss/_covers.scss */
   .cover-c .curtain {
     position: relative;
     z-index: 9;
     height: 100%;
     background: rgba(34, 34, 34, 0.5); }
 
-/* line 2, ../scss/_carousels.scss */
 .carousel-item {
   height: 350px;
   background-position: center center !important;
@@ -402,22 +357,18 @@ html {
   -o-background-size: cover !important;
   background-size: cover !important; }
 
-/* line 11, ../scss/_carousels.scss */
 .carousel-control-next span,
 .carousel-control-prev span {
   color: #fff; }
 
-/* line 18, ../scss/_carousels.scss */
 .carousel-indicators li {
   background: rgba(255, 255, 255, 0.3); }
-  /* line 20, ../scss/_carousels.scss */
   .carousel-indicators li:hover {
     background: #fff; }
-/* line 24, ../scss/_carousels.scss */
+
 .carousel-indicators .active {
   background: #fff; }
 
-/* line 2, ../scss/_sections.scss */
 .card-img-top {
   height: 200px;
   background-position: center center;
@@ -428,7 +379,6 @@ html {
   -o-background-size: cover !important;
   background-size: cover !important; }
 
-/* line 8, ../scss/_sections.scss */
 .card-img-side {
   height: 100%;
   background-position: center center;
@@ -439,7 +389,6 @@ html {
   -o-background-size: cover !important;
   background-size: cover !important; }
 
-/* line 14, ../scss/_sections.scss */
 .card-img-text {
   height: 350px;
   background-position: center center;
@@ -450,312 +399,241 @@ html {
   -o-background-size: cover !important;
   background-size: cover !important; }
 
-/* line 20, ../scss/_sections.scss */
 .sticky-top {
   top: 20px !important; }
 
-/* line 2, ../scss/_buttons.scss */
 .btn {
   padding-left: 30px;
   padding-right: 30px; }
 
-/* line 7, ../scss/_buttons.scss */
 .btn-lg {
   padding-left: 40px;
   padding-right: 40px; }
 
-/* line 13, ../scss/_buttons.scss */
 .pill {
   border-radius: 20px;
   -webkit-border-radius: 20px;
   -moz-border-radius: 20px; }
 
-/* line 20, ../scss/_buttons.scss */
 .box {
   border-radius: 0;
   -webkit-border-radius: 0;
   -moz-border-radius: 0; }
 
-/* line 27, ../scss/_buttons.scss */
 .btn-red {
   background-color: #f95d5d;
   color: #fff; }
-  /* line 30, ../scss/_buttons.scss */
   .btn-red:hover {
     background-color: #f72c2c;
     color: #fff; }
 
-/* line 35, ../scss/_buttons.scss */
 .btn-blue {
   background-color: #00beff;
   color: #fff; }
-  /* line 38, ../scss/_buttons.scss */
   .btn-blue:hover {
     background-color: #0098cc;
     color: #fff; }
 
-/* line 43, ../scss/_buttons.scss */
 .btn-green {
   background-color: #5ac152;
   color: #fff; }
-  /* line 46, ../scss/_buttons.scss */
   .btn-green:hover {
     background-color: #43a53b;
     color: #fff; }
 
-/* line 51, ../scss/_buttons.scss */
 .btn-white {
   background-color: #fff;
   color: #333; }
-  /* line 54, ../scss/_buttons.scss */
   .btn-white:hover {
     background-color: #e6e6e6;
     color: #333; }
 
-/* line 59, ../scss/_buttons.scss */
 .btn-light {
   background-color: #f8f9fa;
   color: #333; }
-  /* line 62, ../scss/_buttons.scss */
   .btn-light:hover {
     background-color: #dae0e5;
     color: #333; }
 
-/* line 67, ../scss/_buttons.scss */
 .btn-grey {
   background-color: #666;
   color: #fff; }
-  /* line 70, ../scss/_buttons.scss */
   .btn-grey:hover {
     background-color: #4d4d4d;
     color: #fff; }
 
-/* line 75, ../scss/_buttons.scss */
 .btn-dark-grey {
   background-color: #333;
   color: #fff; }
-  /* line 78, ../scss/_buttons.scss */
   .btn-dark-grey:hover {
     background-color: #1a1a1a;
     color: #fff; }
 
-/* line 83, ../scss/_buttons.scss */
 .btn-dark {
   background-color: #222;
   color: #fff; }
-  /* line 86, ../scss/_buttons.scss */
   .btn-dark:hover {
     background-color: #3c3c3c;
     color: #fff; }
 
-/* line 93, ../scss/_buttons.scss */
 .btn-outline-red {
   border: 1px solid #f95d5d;
   background-color: none;
   color: #f95d5d; }
-  /* line 97, ../scss/_buttons.scss */
   .btn-outline-red:hover {
     border: 1px solid rgba(249, 93, 93, 0);
     background-color: #f95d5d;
     color: #fff; }
 
-/* line 103, ../scss/_buttons.scss */
 .btn-outline-blue {
   border: 1px solid #00beff;
   background-color: none;
   color: #00beff; }
-  /* line 107, ../scss/_buttons.scss */
   .btn-outline-blue:hover {
     border: 1px solid rgba(0, 190, 255, 0);
     background-color: #00beff;
     color: #fff; }
 
-/* line 113, ../scss/_buttons.scss */
 .btn-outline-green {
   border: 1px solid #5ac152;
   background-color: none;
   color: #5ac152; }
-  /* line 117, ../scss/_buttons.scss */
   .btn-outline-green:hover {
     border: 1px solid rgba(90, 193, 82, 0);
     background-color: #5ac152;
     color: #fff; }
 
-/* line 123, ../scss/_buttons.scss */
 .btn-outline-white {
   border: 1px solid #fff;
   background-color: none;
   color: #fff; }
-  /* line 127, ../scss/_buttons.scss */
   .btn-outline-white:hover {
     border: 1px solid rgba(255, 255, 255, 0);
     background-color: #fff;
     color: #222; }
 
-/* line 133, ../scss/_buttons.scss */
 .btn-outline-light {
   border: 1px solid #f8f9fa;
   background-color: none;
   color: #f8f9fa; }
-  /* line 137, ../scss/_buttons.scss */
   .btn-outline-light:hover {
     border: 1px solid rgba(248, 249, 250, 0);
     background-color: #f8f9fa;
     color: #222; }
 
-/* line 143, ../scss/_buttons.scss */
 .btn-outline-grey {
   border: 1px solid #666;
   background-color: none;
   color: #666; }
-  /* line 147, ../scss/_buttons.scss */
   .btn-outline-grey:hover {
     border: 1px solid rgba(102, 102, 102, 0);
     background-color: #666;
     color: #fff; }
 
-/* line 153, ../scss/_buttons.scss */
 .btn-outline-dark-grey {
   border: 1px solid #333;
   background-color: none;
   color: #333; }
-  /* line 157, ../scss/_buttons.scss */
   .btn-outline-dark-grey:hover {
     border: 1px solid rgba(51, 51, 51, 0);
     background-color: #333;
     color: #fff; }
 
-/* line 163, ../scss/_buttons.scss */
 .btn-outline-dark {
   border: 1px solid #222;
   background-color: none;
   color: #222; }
-  /* line 167, ../scss/_buttons.scss */
   .btn-outline-dark:hover {
     border: 1px solid rgba(34, 34, 34, 0);
     background-color: #222;
     color: #fff; }
 
-/* line 2, ../scss/_footers.scss */
 .fa-stack.fa-1x {
   font-size: 1.2em !important; }
-/* line 5, ../scss/_footers.scss */
+
 .fa-stack.fa-2x {
   font-size: 1.5em !important; }
-/* line 8, ../scss/_footers.scss */
+
 .fa-stack:hover > .fa-stack-red {
   color: #f84949 !important; }
-/* line 11, ../scss/_footers.scss */
+
 .fa-stack:hover > .fa-stack-blue {
   color: #00abe6 !important; }
-/* line 14, ../scss/_footers.scss */
+
 .fa-stack:hover > .fa-stack-green {
   color: #4ab842 !important; }
-/* line 17, ../scss/_footers.scss */
+
 .fa-stack:hover > .fa-stack-white {
   color: #f2f2f2 !important; }
-/* line 20, ../scss/_footers.scss */
+
 .fa-stack:hover > .fa-stack-light {
   color: #e9ecef !important; }
-/* line 23, ../scss/_footers.scss */
+
 .fa-stack:hover > .fa-stack-grey {
   color: #595959 !important; }
-/* line 26, ../scss/_footers.scss */
+
 .fa-stack:hover > .fa-stack-dark-grey {
   color: #262626 !important; }
-/* line 29, ../scss/_footers.scss */
+
 .fa-stack:hover > .fa-stack-dark {
   color: #151515 !important; }
 
 @media (max-width: 566px) {
-  /* line 3, ../scss/_media-queries.scss */
   .card-img-side {
     height: 200px; }
-
-  /* line 47, ../scss/_footers.scss */
   .footer-a {
     text-align: center; }
-    /* line 49, ../scss/_footers.scss */
     .footer-a .social-icons {
       text-align: center; }
-    /* line 52, ../scss/_footers.scss */
     .footer-a .copyrights {
       text-align: center; }
-
-  /* line 65, ../scss/_footers.scss */
   .footer-b {
     text-align: center; } }
+
 @media (min-width: 567px) {
-  /* line 11, ../scss/_media-queries.scss */
   .card-img-side {
     height: 200px; }
-
-  /* line 47, ../scss/_footers.scss */
   .footer-a {
     text-align: center; }
-    /* line 49, ../scss/_footers.scss */
     .footer-a .social-icons {
       text-align: center; }
-    /* line 52, ../scss/_footers.scss */
     .footer-a .copyrights {
       text-align: center; }
-
-  /* line 65, ../scss/_footers.scss */
   .footer-b {
     text-align: center; } }
+
 @media (min-width: 768px) {
-  /* line 19, ../scss/_media-queries.scss */
   .card-img-side {
     height: 100%; }
-
-  /* line 35, ../scss/_footers.scss */
   .footer-a {
     text-align: left; }
-    /* line 37, ../scss/_footers.scss */
     .footer-a .social-icons {
       text-align: right; }
-    /* line 40, ../scss/_footers.scss */
     .footer-a .copyrights {
       text-align: right; }
-
-  /* line 59, ../scss/_footers.scss */
   .footer-b {
     text-align: left; } }
+
 @media (min-width: 992px) {
-  /* line 27, ../scss/_media-queries.scss */
   .card-img-side {
     height: 100%; }
-
-  /* line 35, ../scss/_footers.scss */
   .footer-a {
     text-align: left; }
-    /* line 37, ../scss/_footers.scss */
     .footer-a .social-icons {
       text-align: right; }
-    /* line 40, ../scss/_footers.scss */
     .footer-a .copyrights {
       text-align: right; }
-
-  /* line 59, ../scss/_footers.scss */
   .footer-b {
     text-align: left; } }
+
 @media (min-width: 1200px) {
-  /* line 35, ../scss/_media-queries.scss */
   .card-img-side {
     height: 100%; }
-
-  /* line 35, ../scss/_footers.scss */
   .footer-a {
     text-align: left; }
-    /* line 37, ../scss/_footers.scss */
     .footer-a .social-icons {
       text-align: right; }
-    /* line 40, ../scss/_footers.scss */
     .footer-a .copyrights {
       text-align: right; }
-
-  /* line 59, ../scss/_footers.scss */
   .footer-b {
     text-align: left; } }
-
-/*# sourceMappingURL=styles.css.map */
