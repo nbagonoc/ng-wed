@@ -25,6 +25,33 @@
 .text-dark {
   color: #222 !important; }
 
+.bg-red {
+  background-color: #f95d5d; }
+
+.bg-pink {
+  background-color: #f4adae; }
+
+.bg-blue {
+  background-color: #00beff; }
+
+.bg-green {
+  background-color: #5ac152; }
+
+.bg-white {
+  background-color: #fff !important; }
+
+.bg-light {
+  background-color: #f8f9fa !important; }
+
+.bg-grey {
+  background-color: #666; }
+
+.bg-dark-grey {
+  background-color: #333; }
+
+.bg-dark {
+  background-color: #222 !important; }
+
 .link-red {
   color: #f95d5d; }
   .link-red:hover {
